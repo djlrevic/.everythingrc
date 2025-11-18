@@ -1,0 +1,10 @@
+// Place your key bindings in this file to override the defaults
+// ~/.config/Code/User/keybindings.json
+[
+    {
+        // Use ctrl+k in terminal as in bash, i.e. kill (delete) from cursor to end of line.
+        "key": "ctrl+k",
+        "command": "deleteAllRight",
+        "when": "terminalFocus"
+    }
+]
